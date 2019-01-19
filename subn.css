@@ -1,0 +1,108 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+body{background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#cont{
+	background-color: #f7f7f7;
+	  height: 525px;
+  width: 360px;
+	margin:100px auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+ font-family: 'Raleway',  AR DESTINE,sans-serif;
+ box-sizing: border-box;
+ border-radius: 22px;
+
+}
+h2{
+	text-transform: uppercase;
+	background-color: #1d4d91;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 20px 20px 0 0;
+
+}
+button{
+   text-align: center;
+   margin: 10px 120px;
+   text-transform: uppercase;
+   padding: 10px 18px;
+   background-color:#ff4000;
+   border-radius: 7px;
+   font-family: Archivo Black;
+}
+button:active{
+	background-color: #ff6633 ;
+}
+input{
+  border-radius: 3px;
+  padding: 6px 20px;
+}
+select{
+	padding: 6px 20px;
+	
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 15px;
+    -moz-padding-end: 15px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: rgba(242, 225, 220,0.1); /* fallback color if gradients are not supported */
+    background-image: url(../images/select-arrow.png), -webkit-linear-gradient(top, #E5E5E5, #F4F4F4); /* For Chrome and Safari */
+    background-image: url(../images/select-arrow.png), -moz-linear-gradient(top, #E5E5E5, #F4F4F4); /* For old Fx (3.6 to 15) */
+    background-image: url(../images/select-arrow.png), -ms-linear-gradient(top, #E5E5E5, #F4F4F4); /* For pre-releases of IE 10*/
+    background-image: url(../images/select-arrow.png), -o-linear-gradient(top, #E5E5E5, #F4F4F4); /* For old Opera (11.1 to 12.0) */ 
+    background-image: url(../images/select-arrow.png), linear-gradient(to bottom, #E5E5E5, #F4F4F4); /* Standard syntax; must be last */
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 255, 0, 1);
+    color: #555;
+    font-size: inherit;
+    margin: 0 10px;
+    text-overflow: ellipsis;
+    
+
+}
+select:hover {
+  background-image: linear-gradient(var(--accentFg), var(--accentFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(var(--accentFg) 42%, var(--accentBg) 42%);
+}
+select:active {
+  background-image: linear-gradient(var(--accentFg), var(--accentFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(var(--accentFg) 42%, var(--accentBg) 42%);
+  color: var(--accentBg);
+  border-color: var(--accentFg);
+  background-color: var(--accentFg);
+}
+p{
+	padding: 0 13px;
+	line-height: 10px;
+}
+label{
+	padding: 0 13px;
+}
+
+.fa-angle-right:hover{
+   color: rgb(173, 177, 214);
+}
+option{
+	padding: 0 13px;
+}
+h2:hover{
+  background-color:  #cc0000;
+}
+p:hover{
+	font-size: 18px;
+	transition-timing-function: linear;
+	transition-delay: .08s;
+}
+.fa-gratipay{
+	color: white;
+}
